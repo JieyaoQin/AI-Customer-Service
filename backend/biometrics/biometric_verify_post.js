@@ -4,8 +4,8 @@ var AWS = require('aws-sdk');
 var crypto = require('crypto');
 AWS.config.update(
     {region: "us-east-1",
-     accessKeyId: "AKIAJEUTN637CQLYTITA",
-     secretAccessKey: "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"}
+     accessKeyId: "AKIAJEUTN637C******",
+     secretAccessKey: "KZfawTcbZTyazQrCnbygvXzgYL4GwXjL*****"}
      );
 var rekognition = new AWS.Rekognition();
 //const s3 = new AWS.S3();
