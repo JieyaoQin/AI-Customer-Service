@@ -5,12 +5,12 @@ const AWS = require('aws-sdk');
 const LEX = require('aws-sdk'); 
 AWS.config.update({
   region: 'us-east-1',
-  accessKeyId:'AKIAJIR2PL4ONZV6WIQQ',
-  secretAccessKey: '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'
+  accessKeyId:****************',
+  secretAccessKey: '***********************'
 });
 LEX.config.region = 'us-east-1'; // Region
 LEX.config.credentials = new AWS.CognitoIdentityCredentials({
-  IdentityPoolId: 'us-east-1:f39dcc56-5b8d-4a59-8b8a-3dd968e96e28',
+  IdentityPoolId: '******************************',
 });
 
 const uuidv4 = require('uuid/v4');
