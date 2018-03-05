@@ -1,12 +1,12 @@
-'use strict';
+use strict';
 
 // libraries and imports
 const AWS = require('aws-sdk');
 const LEX = require('aws-sdk'); 
 AWS.config.update({
   region: 'us-east-1',
-  accessKeyId:****************',
-  secretAccessKey: '***********************'
+  accessKeyId: '****************',
+  secretAccessKey: '***********************',
 });
 LEX.config.region = 'us-east-1'; // Region
 LEX.config.credentials = new AWS.CognitoIdentityCredentials({
